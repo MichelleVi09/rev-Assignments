@@ -1,1 +1,36 @@
+package com.day1;
 
+public class TestWrapper {
+
+	public static void main(String[] args) {
+		//wrapping a primitive value into corresponding wrapper class
+		Integer age = 25;
+		Double price = 5.00;
+		Character grade = 'A';
+		Boolean active = true;
+		System.out.println(age);
+		System.out.println(price);
+		System.out.println(grade);
+		System.out.println(active);
+		
+		//autoboxing: primtiive to wrapper
+		int x = 210;
+		Integer y = x;
+		
+		//unboxing: wrapper to primitive
+		int z = 2;
+		z = age.intValue();
+		
+		double p = price.doubleValue();
+		
+		String num = "200";
+		int amt = Integer.parseInt(num);
+		System.out.println(amt);
+;
+		
+		
+		
+
+	}
+
+}
